@@ -26,6 +26,15 @@
 <!--</script>-->
 <!--<button onclick="clickPuzzle()">Нажимай на кнопку</button>-->
 <!--<script src="script.js"></script>-->
-<script src="HW3.js"></script>
+<button onclick="counterClickButton()">Click</button>
+<script src="script.js"></script>
+<script>
+    let count = 0;
+    alert(`Вы нажали на кнопку ${count} раз`);
+    function counterClickButton() {
+        alert(++count);
+        console.log(count);
+    }
+</script>
 </body>
 </html>
