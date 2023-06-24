@@ -11,6 +11,10 @@ const numbers = {
     keyin7: 7,
 }
 
+for (const item in Object.values(numbers)) {
+    if (item >= 3) console.log(item);
+}
+
 
 // Задание 2
 // Необходимо из объекта, который лежит в константе post вывести значения, к которым приписан комментарий, в консоль.
